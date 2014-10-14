@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.shareaholic</groupId>
     <artifactId>boilerpipe</artifactId>
-    <version>1.2.1</version>
+    <version>1.2.2-SNAPSHOT</version>
 
     <name>boilerpipe</name>
     <description>Boilerpipe -- Boilerplate Removal and Fulltext Extraction from HTML pages</description>
