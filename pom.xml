@@ -73,7 +73,7 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-            <url>http://jenkins03.prod.shareaholic.com:8081/repository/releases</url>
+            <url>http://nexus.shareaholic.com/content/repositories/releases</url>
         </repository>
         <repository>
             <id>shareaholic-snapshots</id>
@@ -82,7 +82,7 @@
                 <enabled>false</enabled>
                 <checksumPolicy>ignore</checksumPolicy>
             </releases>
-            <url>http://jenkins03.prod.shareaholic.com:8081/repository/snapshots</url>
+            <url>http://nexus.shareaholic.com/content/repositories/snapshots</url>
         </repository>
         <repository>
             <id>shareaholic-thirdparty</id>
@@ -95,18 +95,18 @@
                 <enabled>true</enabled>
                 <checksumPolicy>ignore</checksumPolicy>
             </snapshots>
-            <url>http://jenkins03.prod.shareaholic.com:8081/repository/thirdparty</url>
+            <url>http://nexus.shareaholic.com/content/repositories/thirdparty</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>shareaholic-releases</id>
-            <url>http://jenkins03.prod.shareaholic.com:8081/repository/releases</url>
+            <url>http://nexus.shareaholic.com/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
             <id>shareaholic-snapshots</id>
-            <url>http://jenkins03.prod.shareaholic.com:8081/repository/snapshots</url>
+            <url>http://nexus.shareaholic.com/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
