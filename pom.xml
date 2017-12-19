@@ -4,6 +4,12 @@
     <artifactId>boilerpipe</artifactId>
     <version>1.2.2-SNAPSHOT</version>
 
+    <parent>
+        <artifactId>shareaholic-parent</artifactId>
+        <groupId>com.shareaholic</groupId>
+        <version>1.1.9</version>
+    </parent>
+
     <name>boilerpipe</name>
     <description>Boilerpipe -- Boilerplate Removal and Fulltext Extraction from HTML pages</description>
 
