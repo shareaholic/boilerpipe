@@ -99,14 +99,40 @@
         </repository>
     </repositories>
 
-    <distributionManagement>
-        <repository>
+    <pluginRepositories>
+        <pluginRepository>
             <id>shareaholic-releases</id>
+            <name>shareaholic-releases</name>
+            <releases>
+                <enabled>true</enabled>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
             <url>http://nexus.shareaholic.com/repository/releases</url>
-        </repository>
-        <snapshotRepository>
+        </pluginRepository>
+        <pluginRepository>
             <id>shareaholic-snapshots</id>
+            <name>shareaholic-snapshots</name>
+            <releases>
+                <enabled>false</enabled>
+                <checksumPolicy>ignore</checksumPolicy>
+            </releases>
             <url>http://nexus.shareaholic.com/repository/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
+        </pluginRepository>
+        <pluginRepository>
+            <id>shareaholic-thirdparty</id>
+            <name>shareaholic-thirdparty</name>
+            <releases>
+                <enabled>true</enabled>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <checksumPolicy>ignore</checksumPolicy>
+            </snapshots>
+            <url>http://nexus.shareaholic.com/repository/thirdparty</url>
+        </pluginRepository>
+    </pluginRepositories>
 </project>
